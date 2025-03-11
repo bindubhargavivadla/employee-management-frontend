@@ -66,12 +66,12 @@ const EmployeeList = () => {
         <Table>
           <TableHead>
             <TableRow>
-              <TableCell>Name</TableCell>
-              <TableCell>Email</TableCell>
-              <TableCell>Position</TableCell>
-              <TableCell>Age</TableCell>
-              <TableCell>Salary</TableCell>
-              <TableCell>Actions</TableCell>
+              <TableCell sx={{ fontWeight: 'bold' }}>Name</TableCell>
+              <TableCell sx={{ fontWeight: 'bold' }}>Email</TableCell>
+              <TableCell sx={{ fontWeight: 'bold' }}>Position</TableCell>
+              <TableCell sx={{ fontWeight: 'bold' }}>Age</TableCell>
+              <TableCell sx={{ fontWeight: 'bold' }}>Salary</TableCell>
+              <TableCell sx={{ fontWeight: 'bold' }}>Actions</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
